@@ -3,6 +3,7 @@
 A minimal web app to track internship applications, statuses, notes, and deadlines.
 
 ## Tech
+
 - Backend: FastAPI (Python 3.12) or Flask (choose one)
 - DB: SQLite (SQLAlchemy)
 - Auth: session cookie (simple), upgradeable later
@@ -10,6 +11,7 @@ A minimal web app to track internship applications, statuses, notes, and deadlin
 - Deploy: Render/Fly/Railway (free tier)
 
 ## Features (v1)
+
 - Companies CRUD
 - Applications CRUD (company, role, location, link, status, notes, next action date)
 - Filters: by status, by next action date
@@ -17,6 +19,7 @@ A minimal web app to track internship applications, statuses, notes, and deadlin
 - Simple web UI (vanilla JS or small React page) that calls the API
 
 ## Getting Started
+
 ```bash
 # one-time
 python -m venv .venv && source .venv/bin/activate
